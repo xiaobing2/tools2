@@ -1,7 +1,7 @@
 作品名称：边缘协作白板
 
 作品访问URL：
-https://your-pages-url.esa.com
+https://tools2.2b7c6ce6.er.aliyun-esa.net
 
 Github仓库地址：
 https://github.com/xiaobing2/tools2/

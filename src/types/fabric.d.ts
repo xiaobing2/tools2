@@ -1,4 +1,4 @@
-declare module 'fabric' {
+declare namespace fabric {
   export interface IEvent {
     target?: any
     path?: any
@@ -86,13 +86,15 @@ declare module 'fabric' {
       callback: (objects: FabricObject[]) => void
     ): void
   }
-
-  export const fabric: {
-    Canvas: typeof Canvas
-    Rect: typeof Rect
-    Circle: typeof Circle
-    Text: typeof Text
-    util: typeof util
-  }
 }
 
+declare module 'fabric' {
+  const fabric: {
+    Canvas: typeof fabric.Canvas
+    Rect: typeof fabric.Rect
+    Circle: typeof fabric.Circle
+    Text: typeof fabric.Text
+    util: typeof fabric.util
+  }
+  export = fabric
+}

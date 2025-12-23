@@ -1,0 +1,16 @@
+{
+  "name": "whiteboard-edge-function",
+  "version": "1.0.0",
+  "description": "边缘协作白板 - 边缘函数服务",
+  "type": "module",
+  "main": "whiteboard-server.js",
+  "scripts": {
+    "start": "node whiteboard-server.js",
+    "dev": "node --watch whiteboard-server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.1"
+  }
+}
+

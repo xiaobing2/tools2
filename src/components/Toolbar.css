@@ -1,0 +1,100 @@
+.toolbar {
+  padding: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.toolbar-section {
+  margin-bottom: 20px;
+}
+
+.toolbar-section:last-child {
+  margin-bottom: 0;
+}
+
+.toolbar-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.tool-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tool-buttons button {
+  padding: 10px 12px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  transition: all 0.2s;
+  color: var(--text-primary);
+}
+
+.tool-buttons button:hover {
+  background: #e6f7ff;
+  border-color: var(--primary-color);
+}
+
+.tool-buttons button.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.tool-buttons button.danger {
+  color: var(--danger-color);
+}
+
+.tool-buttons button.danger:hover {
+  background: #fff1f0;
+  border-color: var(--danger-color);
+}
+
+.add-text-btn {
+  width: 100%;
+  padding: 10px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.add-text-btn:hover {
+  background: #40a9ff;
+}
+
+.brush-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.brush-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.brush-controls input[type="range"] {
+  width: 100%;
+}
+
+.brush-controls input[type="color"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+

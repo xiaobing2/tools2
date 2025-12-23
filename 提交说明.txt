@@ -2,11 +2,9 @@
 
 作品访问URL：
 https://your-pages-url.esa.com
-（请将此处替换为您的ESA Pages实际部署地址）
 
 Github仓库地址：
-https://github.com/your-username/your-repo
-（请将此处替换为您的GitHub仓库实际地址）
+https://github.com/xiaobing2/tools2/
 
 作品说明：
 

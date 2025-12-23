@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+// @ts-ignore
 import { fabric } from 'fabric'
 import './Whiteboard.css'
 

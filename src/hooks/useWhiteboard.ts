@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef } from 'react'
+// @ts-ignore
 import { fabric } from 'fabric'
 
 export function useWhiteboard() {

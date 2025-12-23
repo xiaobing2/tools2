@@ -7,7 +7,7 @@ export function useSocket() {
   useEffect(() => {
     // 连接到边缘函数提供的WebSocket服务
     // 在生产环境中，这里应该是ESA边缘函数的WebSocket端点
-    const socketUrl = import.meta.env.VITE_SOCKET_URL || 'http://localhost:8080'
+    const socketUrl = import.meta.env.VITE_SOCKET_URL || 'https://tools2.2b7c6ce6.er.aliyun-esa.net'
     
     console.log('正在连接到WebSocket服务器:', socketUrl)
     
